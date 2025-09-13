@@ -1,53 +1,43 @@
-# 🧠 AI Resume Analyzer  
+<h1 align="center">🧠 AI Resume Analyzer</h1>
 
-An **AI-powered Resume Analyzer** built with **React, Tailwind CSS, TypeScript, and Puter.js**.  
-This app allows users to upload resumes, get **ATS-based scores**, and receive **personalized feedback** to improve their chances of landing a job.  
+<p align="center">
+  An <b>AI-powered Resume Analyzer</b> that evaluates resumes, provides ATS scores, and offers personalized improvement feedback.<br/>
+  Built with <b>React, Tailwind CSS, TypeScript, Puter.js, and Zustand</b>.
+</p>
 
-🚀 Live Demo: [AI Resume Analyzer](https://www.youtube.com/watch?v=iYOz165wGkQ)  
-📂 GitHub Repo: [ai-resume-analyzer](https://github.com/adrianhajdin/ai-resume-analyzer)  
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=iYOz165wGkQ" target="_blank"><img src="public/readme/hero.webp" width="800" alt="AI Resume Analyzer Banner"></a>
+</p>
 
 ---
 
-## ⚙️ Tech Stack  
+## ⚡ Tech Stack  
 
-- **React** – Component-based UI  
-- **React Router v7** – Routing with nested routes & error boundaries  
-- **Tailwind CSS** – Utility-first modern styling  
-- **TypeScript** – Static typing for scalable apps  
-- **Puter.js** – Serverless auth, storage, AI APIs in the browser  
-- **Vite** – Fast build tool & dev server  
-- **Zustand** – Lightweight global state management  
+<p align="center">
+  <img src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Puter.js-181758?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-8B73F6?style=for-the-badge&logo=vite&logoColor=yellow" />
+  <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white" />
+</p>
 
 ---
 
 ## 🔋 Features  
 
-- 🔑 **Authentication** – Easy login/signup with Puter.js  
-- 📄 **Resume Upload & Storage** – Save and manage resumes in the cloud  
-- 🤖 **AI Resume Matching** – Get ATS score and feedback for each job description  
-- 🎨 **Modern UI/UX** – Responsive design with Tailwind CSS & reusable components  
-- 📱 **Cross-Device Compatibility** – Works smoothly across desktop, tablet, and mobile  
-- 🧩 **Reusable Codebase** – Clean architecture with modular components  
+✅ **Smart ATS Matching** – Upload a resume and job description → get ATS score + AI-driven feedback.  
+✅ **Authentication** – Simple and secure login with Puter.js.  
+✅ **Resume Storage** – Save and manage resumes in the cloud.  
+✅ **Cross-Device** – Works seamlessly on desktop, tablet, and mobile.  
+✅ **Modern UI/UX** – Responsive design powered by Tailwind CSS + reusable components.  
 
 ---
 
 ## 🤸 Quick Start  
 
-### Prerequisites  
-Make sure you have installed:  
-- [Git](https://git-scm.com/)  
-- [Node.js](https://nodejs.org/)  
-- [npm](https://www.npmjs.com/)  
-
-### Installation  
-
+### 1️⃣ Clone & Install  
 ```bash
-# Clone the repository
 git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
 cd ai-resume-analyzer
-
-# Install dependencies
 npm install
-
-# Start the development server
-npm run dev
